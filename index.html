@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<!-- saved from url=(0100)file:///Users/alexey/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B0%D1%8F/landing_tennis_strunino.html -->
-<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Теннисный корт рядом с вами — Струнино</title>
   <style>
     :root {
@@ -372,26 +372,25 @@
   <div class="wrap grid">
     <section class="card hero">
       <div class="hero__content">
-        <div class="badge">Прототип для проверки спроса</div>
         <h1>Теннисный корт рядом с вами</h1>
         <p class="subtitle">
-          Новый корт рядом с деревней Струнино. Оставьте заявку по телефону и узнайте о старте, ценах и времени бронирования.
+          Теннисный корт рядом с вами — между деревнями Струнино и Площево. Звоните, чтобы узнать детали, условия и доступное время.
         </p>
 
         <div class="meta">
           <div class="meta__item">
             <div class="meta__label">Адрес</div>
-            <div class="meta__value">деревня Струнино, участок под корт</div>
+            <div class="meta__value">между деревнями Струнино и Площево</div>
           </div>
           <div class="meta__item">
             <div class="meta__label">Телефон для записи</div>
-            <div class="meta__value" id="phoneText">+7 (900) 123-45-67</div>
+            <div class="meta__value" id="phoneText">+7 (985) 193-60-94</div>
           </div>
         </div>
 
         <div class="actions">
-          <a class="btn btn--primary" id="callBtn" href="tel:+79001234567">Позвонить</a>
-          <a class="btn btn--secondary" href="file:///Users/alexey/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B0%D1%8F/landing_tennis_strunino.html#map">Посмотреть на карте</a>
+          <a class="btn btn--primary" id="callBtn" href="tel:+79851936094">Звоните</a>
+          <a class="btn btn--secondary" href="#map">Посмотреть на карте</a>
         </div>
       </div>
 
@@ -407,7 +406,7 @@
       <div class="map-head">
         <div>
           <h2>Расположение</h2>
-          <p>Ниже — простой прототип карты с отметкой. В финальной версии сюда можно подключить Яндекс Карты или Google Maps.</p>
+          <p>Удобное расположение рядом со Струнино и Площево.</p>
         </div>
       </div>
 
@@ -423,8 +422,8 @@
 
         <div class="pin-wrap">
           <div class="callout">
-            <strong>Точка будущего корта</strong>
-            <span>деревня Струнино, участок под корт<br>Телефон: +7 (900) 123-45-67</span>
+            <strong>Теннисный корт</strong>
+            <span>деревня Струнино<br/>Телефон: +7 (985) 193-60-94</span>
           </div>
           <div class="pin"></div>
           <div class="pulse"></div>
@@ -432,20 +431,20 @@
       </div>
 
       <div class="note">
-        Как редактировать: замените адрес и телефон в коде на ваши реальные данные. Все стили и логика находятся в этом одном HTML-файле.
+        Свяжитесь по телефону, чтобы уточнить детали и интерес к записи.
       </div>
     </section>
 
     <footer>
-      Одностраничный HTML-прототип для теста спроса на теннисный корт.
+      Теннисный корт рядом со Струнино
     </footer>
   </div>
 
   <script>
     const config = {
-      phoneDisplay: '+7 (900) 123-45-67',
-      phoneLink: '+79001234567',
-      address: 'деревня Струнино, участок под корт'
+      phoneDisplay: '+7 (985) 193-60-94',
+      phoneLink: '+79851936094',
+      address: 'между деревнями Струнино и Площево'
     };
 
     document.getElementById('phoneText').textContent = config.phoneDisplay;
@@ -459,6 +458,5 @@
       callout.innerHTML = `${config.address}<br/>Телефон: ${config.phoneDisplay}`;
     }
   </script>
-
-
-</body></html>
+</body>
+</html>
